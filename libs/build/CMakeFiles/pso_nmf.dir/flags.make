@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dpso_nmf_EXPORTS
 
-CXX_INCLUDES = -I/usr/include/eigen3 -isystem /usr/local/lib/python3.10/dist-packages/pybind11/include -isystem /usr/include/python3.10
+CXX_INCLUDES = -isystem /usr/local/lib/python3.10/dist-packages/pybind11/include -isystem /usr/include/python3.10 -isystem /usr/include/eigen3
 
 CXX_FLAGS = -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects -std=gnu++11
 
