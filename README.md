@@ -1,6 +1,6 @@
 # PSO-NMF Library
 
-A **C++11 Particle Swarm Optimization (PSO)** library for **Non-negative Matrix Factorization (NMF)**, exposed to Python via **pybind11**. Optimizes the `H` matrix in \( X \approx W H \) while enforcing non-negativity.
+A **C++11 Particle Swarm Optimization (PSO)** library for **Non-negative Matrix Factorization (NMF)**, exposed to Python via **pybind11**. Optimizes the `H` matrix in `\( X \approx W H \)` while enforcing non-negativity.
 
 ---
 
