@@ -1,6 +1,8 @@
 // pso_nmf.cpp
 // C++11 PSO to optimize H in ||X - W H||_F^2 with non-negativity projection
 // Exposes PSO class to Python via pybind11.
+// developed by Dr. Anirban Dey : email - anirban8895@gmail.com 
+
 
 #include <pybind11/pybind11.h>
 #include <pybind11/numpy.h>
@@ -26,6 +28,7 @@ struct PSOConfig {
     bool verbose = false;
     unsigned seed = 0;
 };
+
 
 class PSO {
 public:
